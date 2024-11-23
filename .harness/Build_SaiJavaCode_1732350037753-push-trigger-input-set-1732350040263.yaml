@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_SaiJavaCode_1732350037753-push-trigger-input-set
+  identifier: Build_SaiJavaCode_1732350037753pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_SaiJavaCode_1732350037753
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
